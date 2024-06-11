@@ -1,0 +1,10 @@
+.navigationCart .cartIcon{
+    max-width: 40px;
+    width: 100%;
+}
+
+.menuItems{
+   font-weight: 600;
+   color: white;
+   font-size: large;
+}

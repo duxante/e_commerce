@@ -9,7 +9,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import { Logo } from '../../assets';
+import { MainLogo, CartIcon } from '../../assets';
+import './navigation.style.css';
 
 const pages = ['Home', 'Shop', 'How To Order?', 'About Us', 'Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -50,7 +51,7 @@ const Navigation = () => {
               display: { xs: 'none', lg: 'flex' },
             }}
           >
-            <Logo />
+            <MainLogo />
           </Typography>
 
           <Box
@@ -89,7 +90,7 @@ const Navigation = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <p>{page}</p>
                 </MenuItem>
               ))}
             </Menu>
@@ -106,7 +107,7 @@ const Navigation = () => {
               fontFamily: 'Playfair Display',
             }}
           >
-            <Logo />
+            <MainLogo />
           </Typography>
           <Box
             sx={{
@@ -115,39 +116,18 @@ const Navigation = () => {
                 xs: 'none',
                 lg: 'flex',
                 justifyContent: 'center',
-                gap: '15px',
+                gap: '25px',
               },
             }}
           >
             {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{
-                  my: 2,
-                  color: 'black',
-                  display: 'block',
-                  fontStyle: 'Arial',
-                  fontSize: '16px',
-                }}
-              >
+              <p className="menuItems" key={page} onClick={handleCloseNavMenu}>
                 {page}
-              </Button>
+              </p>
             ))}
           </Box>
-          <Box
-            sx={{
-              flexGrow: 0,
-              display: 'flex',
-              justifyContent: 'spaceBetween',
-              alignItems: `center`,
-              gap: '25px',
-              color: 'black',
-              maxWidth: '280px',
-              width: '100%',
-            }}
-          >
-            <p>CART ICON</p>
+          <Box className="navigationCart">
+            <CartIcon />
           </Box>
         </Toolbar>
       </Container>
