@@ -1,10 +1,16 @@
 .navigationCart .cartIcon{
     max-width: 40px;
     width: 100%;
+    cursor: pointer;
 }
 
 .menuItems{
    font-weight: 600;
    color: white;
    font-size: large;
+   cursor: pointer;
+}
+
+.menuItems:hover{
+    text-decoration: underline;
 }

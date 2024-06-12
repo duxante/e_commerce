@@ -104,7 +104,6 @@ const Navigation = () => {
               mr: 2,
               display: { xs: 'flex', lg: 'none' },
               flexGrow: 1,
-              fontFamily: 'Playfair Display',
             }}
           >
             <MainLogo />
@@ -116,7 +115,7 @@ const Navigation = () => {
                 xs: 'none',
                 lg: 'flex',
                 justifyContent: 'center',
-                gap: '25px',
+                gap: '50px',
               },
             }}
           >
