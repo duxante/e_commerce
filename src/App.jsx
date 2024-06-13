@@ -1,16 +1,15 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import Navigation from './features/navigation/navigation';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import FreshInovative from './features/freshInovative/freshInovative';
 
-const App = () => {
-  const [count, setCount] = useState(0);
-
+function App() {
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <div className="appHolder">
+      <Navigation />
+      <FreshInovative />
+    </div>
   );
-};
+}
 
 export default App;
