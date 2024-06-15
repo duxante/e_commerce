@@ -1,0 +1,22 @@
+.beautifulPresentationsOneSegmentHolder img{
+    max-width: 100px;
+    width: 100%;
+}
+
+.beautifulPresentationsOneSegmentHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beautifulPresentationsOneSegmentHolder h1{
+    margin-bottom: 0;
+    color: #ffff;
+    text-align: center;
+}
+
+.beautifulPresentationsOneSegmentHolder p{
+    color: #dce2e2;
+    text-align: center;
+}
