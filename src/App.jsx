@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import FreshInovative from './features/freshInovative/freshInovative';
 import BeautifulPresentations from './features/beautifulPresentations/beautifulPresentations';
+import ShowcaseApps from './features/showcaseApps/showcaseApss';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navigation />
       <FreshInovative />
       <BeautifulPresentations />
+      <ShowcaseApps />
     </div>
   );
 }

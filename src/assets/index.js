@@ -10,6 +10,11 @@ import klipsch from './klipsch.png';
 import easyToUse from './easyToUse.png';
 import freeUpdates from './freeUpdates.png';
 import trendyDesign from './trendyDesign.png';
+import atheadphones from './atheadphones.png';
+
+const ATHeadphones = () => {
+  return <img className="atheadphones" src={atheadphones} alt="headphones" />;
+};
 
 const TrendyDesign = () => {
   return <img className="trendyDesign" src={trendyDesign} alt="fire icon" />;
@@ -74,4 +79,5 @@ export {
   TrendyDesign,
   FreeUpdates,
   EasyToUse,
+  ATHeadphones,
 };
