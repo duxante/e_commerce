@@ -4,6 +4,7 @@ import './App.css';
 import FreshInovative from './features/freshInovative/freshInovative';
 import BeautifulPresentations from './features/beautifulPresentations/beautifulPresentations';
 import ShowcaseApps from './features/showcaseApps/showcaseApss';
+import OurPackages from './features/ourPackages/ourPackages';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <FreshInovative />
       <BeautifulPresentations />
       <ShowcaseApps />
+      <OurPackages />
     </div>
   );
 }
