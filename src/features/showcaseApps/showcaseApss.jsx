@@ -7,12 +7,15 @@ const ShowcaseApps = () => {
     <div className="showcaseAppsHolder">
       <div className="showcaseAppsMain">
         <div className="showcaseAppsLeft">
-          <h1>SHOWCASE APPS, INNOVATIVE TECH OR BUSINESSES.</h1>
-          <p>
-            Never be without the product you need! Sign Up today to save money
-            and time. Cancel anytime.
-          </p>
-          <MyButton customClass={'tryThisButton'} buttonText="ORDER NOW" />
+          <div className="showcaseLeft">
+            <h1>SHOWCASE APPS, INNOVATIVE TECH OR BUSINESSES.</h1>
+            <p>
+              Never be without the product you need! Sign Up today to save money
+              and time. Cancel anytime.
+            </p>
+
+            <MyButton customClass={'tryThisButton'} buttonText="ORDER NOW" />
+          </div>
         </div>
         <div className="showcaseAppsRight">
           <ATHeadphones />
