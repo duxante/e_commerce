@@ -7,6 +7,23 @@ import polk from './polk.png';
 import marshall from './marshall.png';
 import yamaha from './yamaha.png';
 import klipsch from './klipsch.png';
+import easyToUse from './easyToUse.png';
+import freeUpdates from './freeUpdates.png';
+import trendyDesign from './trendyDesign.png';
+
+const TrendyDesign = () => {
+  return <img className="trendyDesign" src={trendyDesign} alt="fire icon" />;
+};
+
+const FreeUpdates = () => {
+  return (
+    <img className="freeUpdates" src={freeUpdates} alt="free updates icon" />
+  );
+};
+
+const EasyToUse = () => {
+  return <img className="easyToUse" src={easyToUse} alt="easy to use icon" />;
+};
 
 const MainLogo = () => {
   return <img className="mainLogo" src={logo} alt="logo" />;
@@ -54,4 +71,7 @@ export {
   Klipsch,
   Kicker,
   Audison,
+  TrendyDesign,
+  FreeUpdates,
+  EasyToUse,
 };

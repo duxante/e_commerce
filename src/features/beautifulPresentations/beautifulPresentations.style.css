@@ -1,0 +1,42 @@
+.beautifulPresentationsHolder{
+    width: 100%;
+    margin: 0px auto;
+    height: 90vh;
+}
+
+.beautifulPresentationsMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.beautifulPresentationsUpper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beautifulPresentationsUpper h1{
+    font-size: 50px;
+    color: #08cb07;
+}
+
+.beautifulPresentationsUpper p{
+    text-align: center;
+    font-size: 20px;
+    color: #dce2e2;
+}
+
+.beautifulPresentationsBottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
