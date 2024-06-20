@@ -5,6 +5,7 @@ import FreshInovative from './features/freshInovative/freshInovative';
 import BeautifulPresentations from './features/beautifulPresentations/beautifulPresentations';
 import ShowcaseApps from './features/showcaseApps/showcaseApss';
 import OurPackages from './features/ourPackages/ourPackages';
+import ProductInformation from './features/productInformation/productInformation';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BeautifulPresentations />
       <ShowcaseApps />
       <OurPackages />
+      <ProductInformation />
     </div>
   );
 }
