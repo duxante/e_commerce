@@ -1,0 +1,35 @@
+.ourPackagesHolder{
+    width: 100%;
+    margin: 0px auto;
+    height: 90vh;
+}
+
+.ourPackagesMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.packagesTitle{
+    font-size: 50px!important;
+    color: #dce2e2!important;
+}
+
+.ourPackagesMain h1{
+    font-size: 2em;
+    color: #08cb07;
+}
+
+.packagesBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+

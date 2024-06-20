@@ -11,6 +11,39 @@ import easyToUse from './easyToUse.png';
 import freeUpdates from './freeUpdates.png';
 import trendyDesign from './trendyDesign.png';
 import atheadphones from './atheadphones.png';
+import sonyHeadphones from './sonyHeadphones.png';
+import motoHeadphones from './motoHeadphones.png';
+import jblHeadphones from './jblHeadphones.png';
+
+const SonyHeadphones = () => {
+  return (
+    <img
+      className="packageHeadphones"
+      src={sonyHeadphones}
+      alt="sony headphones"
+    />
+  );
+};
+
+const MotoHeadphones = () => {
+  return (
+    <img
+      className="packageHeadphones"
+      src={motoHeadphones}
+      alt="motorola headphones"
+    />
+  );
+};
+
+const JblHeadphones = () => {
+  return (
+    <img
+      className="packageHeadphones"
+      src={jblHeadphones}
+      alt="jbl headphones"
+    />
+  );
+};
 
 const ATHeadphones = () => {
   return <img className="atheadphones" src={atheadphones} alt="headphones" />;
@@ -80,4 +113,7 @@ export {
   FreeUpdates,
   EasyToUse,
   ATHeadphones,
+  MotoHeadphones,
+  SonyHeadphones,
+  JblHeadphones,
 };
