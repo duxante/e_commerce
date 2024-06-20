@@ -1,0 +1,20 @@
+.featureHolder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.featureHolder p{
+    /* color: #dce2e2; */
+    color: #6db4d8;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.featureHolder img {
+    max-width: 30px;
+    width: 100%;
+}
