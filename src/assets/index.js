@@ -19,6 +19,7 @@ import backToTheFuture from './backToTheFuture.png';
 import drStrange from './drStrange.png';
 import redDagger from './redDagger.png';
 import groot from './groot.png';
+import razerHeadhhones from './razerHeadhhones.png';
 
 const Groot = () => {
   return <img className="groot" src={groot} alt="groot figurine" />;
@@ -134,6 +135,16 @@ const Check = () => {
   return <img className="check" src={check} alt="check icon" />;
 };
 
+const RazerHeadhhones = () => {
+  return (
+    <img
+      className="razerHeadhhones"
+      src={razerHeadhhones}
+      alt="green headphones"
+    />
+  );
+};
+
 export {
   CartIcon,
   MainLogo,
@@ -156,4 +167,5 @@ export {
   BackToTheFuture,
   RedDagger,
   Groot,
+  RazerHeadhhones,
 };
