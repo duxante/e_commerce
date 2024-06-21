@@ -6,6 +6,7 @@ import OurPackages from './features/ourPackages/ourPackages';
 import ProductInformation from './features/productInformation/productInformation';
 import FeatureBestSellers from './features/featureBestSellers/featureBestSellers';
 import './App.css';
+import WhatClientsSay from './features/whatClientsSay/whatClientsSay';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <OurPackages />
       <ProductInformation />
       <FeatureBestSellers />
+      <WhatClientsSay />
     </div>
   );
 }
