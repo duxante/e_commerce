@@ -37,7 +37,7 @@ const Navigation = () => {
   return (
     <AppBar
       className="fadeinleft animation-duration-1000 shadow-3"
-      sx={{ position: 'sticky', backgroundColor: '#3A6073' }}
+      sx={{ position: 'sticky', backgroundColor: '#3AAFA9' }}
     >
       <Container maxWidth="x1">
         <Toolbar disableGutters>
