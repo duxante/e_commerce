@@ -9,10 +9,10 @@ const BeautifulPresentations = () => {
         <div className="beautifulPresentationsUpper">
           <h1>Beautiful presentations made easy.</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti
-            minima earum dicta non deleniti minus impedit, dolorum, ipsum
-            veritatis culpa. Molestiae, repudiandae! Tenetur iure consequuntur
-            laboriosam error velit necessitatibus.
+            Creating beautiful presentations has never been easier! With our
+            intuitive tools and stunning templates, you can craft professional,
+            eye-catching slides in no time. Impress your audience effortlessly
+            and make your message unforgettable.
           </p>
         </div>
         <div className="beautifulPresentationsBottom">

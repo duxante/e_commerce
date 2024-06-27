@@ -1,7 +1,6 @@
 .showcaseAppsHolder{
     width: 100%;
     margin: 0px auto;
-    height: 90vh;
 }
 
 .showcaseAppsMain{
@@ -34,7 +33,7 @@
     max-width: 700px;
     width: 100%;
     font-size: 50px;
-    color: #08cb07;
+    color: #FEFFFF;
 }
 
 .showcaseAppsLeft p{
@@ -42,11 +41,12 @@
     width: 100%;
     text-align: left;
     font-size: 20px;
-    color: #dce2e2;
+    color: #FEFFFF;
 }
 
 .showcaseAppsRight{
-    background-color: #3a6073;
+    background-color: #2B7A78;
+    border-radius: 3px;
     width: 50%;
     height: 100%;
     display: flex;
@@ -55,8 +55,7 @@
 }
 
 .showcaseAppsRight img{
-    width: auto;
-    height: 80%;
+    width: 100%;
 }
 
 .tryThisButton{

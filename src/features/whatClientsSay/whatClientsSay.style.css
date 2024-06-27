@@ -1,7 +1,7 @@
 .whatClientsSayHolder{
     width: 100%;
     margin: 0px auto;
-    height: 90vh;
+    background-color: #17252A;
 }
 
 .whatClientsSayMain{
@@ -14,12 +14,13 @@
     width: 100%;
     margin: 0px auto;
     height: 100%;
+    padding: 5% 0;
 }
 
 .whatClientsSayMain h1{
     font-size: 50px;
     margin-top: 0;
-    color: #dce2e2;
+    color: #FEFFFF;
 }
 
 .whatClientsSayBottom{

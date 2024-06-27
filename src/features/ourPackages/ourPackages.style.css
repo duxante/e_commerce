@@ -1,7 +1,6 @@
 .ourPackagesHolder{
     width: 100%;
     margin: 0px auto;
-    height: 90vh;
 }
 
 .ourPackagesMain{
@@ -13,22 +12,24 @@
     width: 100%;
     margin: 0px auto;
     height: 100%;
+    padding: 5% 0;
 }
 
 .packagesTitle{
     font-size: 50px!important;
-    color: #dce2e2!important;
+    color: #FEFFFF!important;
 }
 
 .ourPackagesMain h1{
     font-size: 2em;
-    color: #08cb07;
+    color: #FEFFFF;
 }
 
 .packagesBottom{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
+    gap: 10px;
     width: 100%;
 }
 
