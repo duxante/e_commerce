@@ -15,6 +15,36 @@ import sonyHeadphones from './sonyHeadphones.png';
 import motoHeadphones from './motoHeadphones.png';
 import jblHeadphones from './jblHeadphones.png';
 import check from './check.png';
+import backToTheFuture from './backToTheFuture.png';
+import drStrange from './drStrange.png';
+import redDagger from './redDagger.png';
+import groot from './groot.png';
+
+const Groot = () => {
+  return <img className="groot" src={groot} alt="groot figurine" />;
+};
+
+const RedDagger = () => {
+  return (
+    <img className="redDagger" src={redDagger} alt="red dagger figurine" />
+  );
+};
+
+const BackToTheFuture = () => {
+  return (
+    <img
+      className="backToTheFuture"
+      src={backToTheFuture}
+      alt="doc brown figurine"
+    />
+  );
+};
+
+const DrStrange = () => {
+  return (
+    <img className="drStrange" src={drStrange} alt="Dr Strange figurine" />
+  );
+};
 
 const SonyHeadphones = () => {
   return (
@@ -122,4 +152,8 @@ export {
   SonyHeadphones,
   JblHeadphones,
   Check,
+  DrStrange,
+  BackToTheFuture,
+  RedDagger,
+  Groot,
 };

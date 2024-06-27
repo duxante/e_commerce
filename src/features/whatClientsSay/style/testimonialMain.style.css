@@ -1,0 +1,23 @@
+.testimonialMainHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+.testimonialMainHolder img{
+    width: 100%;
+}
+
+.testimonialMainHolder h2{
+    color: #08cb07
+}
+
+.testimonialMainHolder p{
+    text-align: center;
+    color: #dce2e2;
+    max-width: 300px;
+    width: 100%;
+}

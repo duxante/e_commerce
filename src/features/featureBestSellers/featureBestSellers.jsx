@@ -23,6 +23,7 @@ const FeatureBestSellers = () => {
           {featureYourBestSellingData.map((oneFeature) => {
             return (
               <Feature
+                key={oneFeature.id}
                 img={oneFeature.img}
                 description={oneFeature.description}
               />
