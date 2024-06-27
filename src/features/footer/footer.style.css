@@ -1,0 +1,17 @@
+.footerHolder{
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+.footerMain{
+    margin: 0px auto;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.footerMain p{
+    color: #09160d;
+    margin-bottom: 0;
+}
