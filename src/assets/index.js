@@ -14,6 +14,7 @@ import atheadphones from './atheadphones.png';
 import sonyHeadphones from './sonyHeadphones.png';
 import motoHeadphones from './motoHeadphones.png';
 import jblHeadphones from './jblHeadphones.png';
+import check from './check.png';
 
 const SonyHeadphones = () => {
   return (
@@ -99,6 +100,10 @@ const Yamaha = () => {
   return <img className="musicLogo" src={yamaha} alt="yamaha logo" />;
 };
 
+const Check = () => {
+  return <img className="check" src={check} alt="check icon" />;
+};
+
 export {
   CartIcon,
   MainLogo,
@@ -116,4 +121,5 @@ export {
   MotoHeadphones,
   SonyHeadphones,
   JblHeadphones,
+  Check,
 };

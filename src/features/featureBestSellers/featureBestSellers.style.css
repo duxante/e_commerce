@@ -1,0 +1,48 @@
+.featureBestSellersHolder{
+    width: 100%;
+    margin: 0px auto;
+    height: 50vh;
+}
+
+.featureBestSellersMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.featureBestSellersUpper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featureBestSellersUpper h1{
+    font-size: 50px;
+    color: #08cb07;
+    margin: 0px auto;
+}
+
+.featureBestSellersUpper p{
+    max-width: 1200px;
+    width: 100%;
+    font-size: large;
+    color: #dce2e2;
+    text-align: center;
+}
+
+.featureBestSellersBottom{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto;
+}
