@@ -20,6 +20,29 @@ import drStrange from './drStrange.png';
 import redDagger from './redDagger.png';
 import groot from './groot.png';
 import razerHeadhhones from './razerHeadhhones.png';
+import catHeadphones from './catHeadphones.png';
+import bowers from './bowers.png';
+import ourStory from './ourStory.png';
+
+const OurStory = () => {
+  return <img className="ourStory" src={ourStory} alt="concert" />;
+};
+
+const Bowers = () => {
+  return (
+    <img className="bowers" src={bowers} alt="bowers speakers and bookshelf" />
+  );
+};
+
+const CatHeadphones = () => {
+  return (
+    <img
+      className="catHeadphones"
+      src={catHeadphones}
+      alt="cat and headphones"
+    />
+  );
+};
 
 const Groot = () => {
   return <img className="groot" src={groot} alt="groot figurine" />;
@@ -168,4 +191,7 @@ export {
   RedDagger,
   Groot,
   RazerHeadhhones,
+  CatHeadphones,
+  Bowers,
+  OurStory,
 };

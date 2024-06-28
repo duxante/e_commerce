@@ -8,12 +8,14 @@ import FeatureBestSellers from './features/featureBestSellers/featureBestSellers
 import './App.css';
 import WhatClientsSay from './features/whatClientsSay/whatClientsSay';
 import EndingFresh from './features/endingFresh/endingFresh';
+import AboutUs from './features/aboutUs/aboutUs';
 
 function App() {
   return (
     <div className="appHolder">
       <Navigation />
       <FreshInovative />
+      <AboutUs />
       <BeautifulPresentations />
       <ShowcaseApps />
       <OurPackages />
