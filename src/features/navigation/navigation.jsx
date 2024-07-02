@@ -7,17 +7,29 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { MainLogo, CartIcon } from '../../assets';
 import './navigation.style.css';
+import { useNavigate } from 'react-router-dom';
 
-const pages = ['Home', 'Shop', 'How To Order?', 'About Us', 'Contact'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = [
+  { name: 'Home', url: '/' },
+  { name: 'Shop', url: '/shop' },
+  { name: 'How To Order?', url: '/how-to-order' },
+  { name: 'About Us', url: '/about' },
+  { name: 'Contact', url: '/contact' },
+];
 
 const Navigation = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+
+  const navigate = useNavigate();
+
+  const handleNavigate = (url) => {
+    navigate(url);
+    handleCloseNavMenu();
+  };
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -89,8 +101,11 @@ const Navigation = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <p>{page}</p>
+                <MenuItem
+                  key={page.name}
+                  onClick={() => handleNavigate(page.url)}
+                >
+                  <p>{page.name}</p>
                 </MenuItem>
               ))}
             </Menu>
@@ -120,8 +135,12 @@ const Navigation = () => {
             }}
           >
             {pages.map((page) => (
-              <p className="menuItems" key={page} onClick={handleCloseNavMenu}>
-                {page}
+              <p
+                className="menuItems"
+                key={page.name}
+                onClick={() => handleNavigate(page.url)}
+              >
+                {page.name}
               </p>
             ))}
           </Box>
