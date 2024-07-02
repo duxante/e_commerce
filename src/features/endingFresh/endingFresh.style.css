@@ -4,7 +4,6 @@
     flex-direction: column;
     width: 100%;
     margin: 0px auto;
-    height: 90vh;
     background-color: #3a6073;
 }
 
@@ -16,8 +15,11 @@
     width: 100%;
     margin: 0px auto;
     height: 80%;
-    background-color: #16222a;
+    background-color: #3AAFA9;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    padding: 5% 0;
+    margin-top: 5%;
+    border-radius: 3px;
 }
 
 .endingFreshLeftSide{
@@ -36,14 +38,13 @@
 }
 
 .endingFreshLeftSide p{
-    color: #6db4d8;
+    color: #FEFFFF;
     font-size: 20px;
 }
 
 .endingFreshRightSide{
     max-width: 600px;
     width: 100%;
-    /* padding-right: 30px; */
 }
 
 .endingFreshRightSide img{
@@ -54,9 +55,9 @@ hr{
     margin: 0 0 50px 0;
     display: block;
     border: none;
-    height: 1px;
+    height: 2px;
     background: #16222a;
-    background: linear-gradient(to right, #16222a, #3a6073, #20a003, #3a6073, #16222a);
+    background: linear-gradient(to right, #2B7A78, #3AAFA9, #DEF2F1, #3AAFA9, #2B7A78);
 }
 
 .endingFreshButton{
