@@ -1,0 +1,43 @@
+.aboutUsHolder{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #2B7A78;
+}
+
+.aboutUsMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+    padding: 2% 0;
+}
+
+.aboutUsOneSegment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #3AAFA9;
+    color: #FEFFFF;
+    border-radius: 3px;
+}
+
+.aboutUsText{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 5%;
+}
+
+.aboutUsOneSegment img{
+    max-width: 600px;
+    width: 100%;
+}
+
