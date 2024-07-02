@@ -1,7 +1,7 @@
 .freshInovativeHolder{
     width: 100%;
     margin: 0px auto;
-    height: 90vh;
+    height: calc(100vh - 100px);
 }
 
 .freshInovativeMain{
@@ -20,30 +20,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5%;
+    margin-top: auto;
 }
 
 .leftSideFreshInovative{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    width: 70%;
 }
 
 .leftSideFreshInovative h1{
     width: 100%;
     color: #FEFFFF;
-    font-size: 72px;
+    font-size: 78px;
     margin: 0;
 }
 
 .leftSideFreshInovative p{
     color: #FEFFFF;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .rightSideFreshInovative{
-    max-width: 600px;
     width: 100%;
 }
 

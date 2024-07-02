@@ -9,13 +9,12 @@ import './App.css';
 import WhatClientsSay from './features/whatClientsSay/whatClientsSay';
 import EndingFresh from './features/endingFresh/endingFresh';
 import AboutUs from './features/aboutUs/aboutUs';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-function App() {
+const HomePages = () => {
   return (
-    <div className="appHolder">
-      <Navigation />
+    <>
       <FreshInovative />
-      <AboutUs />
       <BeautifulPresentations />
       <ShowcaseApps />
       <OurPackages />
@@ -23,6 +22,20 @@ function App() {
       <FeatureBestSellers />
       <WhatClientsSay />
       <EndingFresh />
+    </>
+  );
+};
+
+function App() {
+  return (
+    <div className="appHolder">
+      <BrowserRouter>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<HomePages />} />
+          <Route path="/about" element={<AboutUs />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
