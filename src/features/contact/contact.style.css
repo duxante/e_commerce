@@ -1,0 +1,125 @@
+.contactHolder{
+    width: 100%;
+    margin: 0px auto;
+    height: calc(100vh - 100px);
+}
+
+.contactMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.contactLeftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.contactLeftSideText{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    width: 100%;
+    align-self: center;
+    padding: 15px 0;
+}
+
+.contactLeftSideText h1{
+    font-size: 72px;
+    color: #17252A;
+}
+
+.contactLeftSideText p{
+    color: #17252A;
+}
+
+.contactLocationAndPhone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.contactLocation{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contactLocation img{
+    max-width: 50px;
+    width: 100%;
+}
+
+.contactLocation p{
+    margin: 0px;
+    color: #FEFFFF;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.locationText{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 300px;
+    width: 100%;
+}
+
+.locationText h3{
+    margin-top: 0;
+}
+
+.contactRightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #DEF2F1;
+    margin: 50px auto;
+    border-radius: 10px
+}
+
+.contactRightside h2{
+    font-size: 34px;
+}
+
+.checkboxThing{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: #17252A;
+}
+
+#cb1 {
+    accent-color: #3AAFA9;
+}
+
+.textFieldCrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.contactButton{
+    align-self: center;
+    margin: 15px 0px 50px;
+}
+

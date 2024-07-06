@@ -23,6 +23,18 @@ import razerHeadhhones from './razerHeadhhones.png';
 import catHeadphones from './catHeadphones.png';
 import bowers from './bowers.png';
 import ourStory from './ourStory.png';
+import phoneIcon from './phoneIcon.png';
+import locationIcon from './locationIcon.png';
+
+const PhoneIcon = () => {
+  return <img className="phoneIcon" src={phoneIcon} alt="phone Icon" />;
+};
+
+const LocationIcon = () => {
+  return (
+    <img className="locationIcon" src={locationIcon} alt="location icon" />
+  );
+};
 
 const OurStory = () => {
   return <img className="ourStory" src={ourStory} alt="concert" />;
@@ -194,4 +206,6 @@ export {
   CatHeadphones,
   Bowers,
   OurStory,
+  LocationIcon,
+  PhoneIcon,
 };
