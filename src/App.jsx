@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navigation from './features/navigation/navigation';
 import FreshInovative from './features/freshInovative/freshInovative';
 import BeautifulPresentations from './features/beautifulPresentations/beautifulPresentations';
@@ -5,11 +6,11 @@ import ShowcaseApps from './features/showcaseApps/showcaseApss';
 import OurPackages from './features/ourPackages/ourPackages';
 import ProductInformation from './features/productInformation/productInformation';
 import FeatureBestSellers from './features/featureBestSellers/featureBestSellers';
-import './App.css';
 import WhatClientsSay from './features/whatClientsSay/whatClientsSay';
 import EndingFresh from './features/endingFresh/endingFresh';
 import AboutUs from './features/aboutUs/aboutUs';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Contact from './features/contact/contact';
+import './App.css';
 
 const HomePages = () => {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePages />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>

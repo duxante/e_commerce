@@ -9,8 +9,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import { MainLogo, CartIcon } from '../../assets';
-import './navigation.style.css';
 import { useNavigate } from 'react-router-dom';
+import './navigation.style.css';
 
 const pages = [
   { name: 'Home', url: '/' },
