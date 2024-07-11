@@ -81,7 +81,7 @@
     margin-top: 0;
 }
 
-.contactRightside{
+.formRightside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,6 +90,11 @@
     background-color: #DEF2F1;
     margin: 50px auto;
     border-radius: 10px
+}
+
+.contactRightside{
+    display: flex;
+    flex-direction: column;
 }
 
 .contactRightside h2{
@@ -123,3 +128,15 @@
     margin: 15px 0px 50px;
 }
 
+.field .MuiOutlinedInput-root {
+    color: #17252a;
+    font-family: Arial;
+  }
+  
+  .field .MuiOutlinedInput-notchedOutline {
+    border-color: #3aafa9;
+  }
+  
+  .field .MuiInputLabel-outlined {
+    color: #2b7a78;
+  }

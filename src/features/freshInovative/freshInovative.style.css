@@ -75,6 +75,6 @@ hr{
     display: block;
     border: none;
     height: 1px;
-    background: #16222a;
-    background: linear-gradient(to right, #16222a, #3a6073, #20a003, #3a6073, #16222a);
+    /* background: #16222a; */
+    background: linear-gradient(to right, #DEF2F1, #3AAFA9, #2B7A78, #3AAFA9, #DEF2F1);
 }
