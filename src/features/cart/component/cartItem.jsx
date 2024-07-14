@@ -1,7 +1,6 @@
 import '../style/cartItem.style.css';
 
 const CartItem = ({
-  key,
   img,
   name,
   description,

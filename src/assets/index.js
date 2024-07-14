@@ -30,6 +30,11 @@ import beatsStudioPro from './beatsStudioPro.png';
 import aKGK371Twist from './aKGK371Twist.png';
 import aTHM70x from './aTHM70x.png';
 import trashIcon from './trashIcon.png';
+import lockIcon from './lockIcon.png';
+
+const LockIcon = () => {
+  return <img className="lockIcon" src={lockIcon} alt="lock icon" />;
+};
 
 const TrashIcon = () => {
   return <img className="trashIcon" src={trashIcon} alt="trash icon" />;
@@ -255,4 +260,5 @@ export {
   AKGK371Twist,
   ATHM70x,
   TrashIcon,
+  LockIcon,
 };

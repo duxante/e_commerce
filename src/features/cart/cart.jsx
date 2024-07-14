@@ -1,12 +1,19 @@
 import { useState } from 'react';
-import './cart.style.css';
 import { TextField } from '@mui/material';
-import MyButton from '../../common/button/myButton';
 import { cartData } from '../../data/cartData';
+import { useNavigate } from 'react-router-dom';
 import CartItem from './component/cartItem';
+import MyButton from '../../common/button/myButton';
+import './cart.style.css';
 
 const Cart = () => {
   const [increase, setIncrease] = useState(null);
+  const navigate = useNavigate();
+
+  const handleNavigate = (url) => {
+    navigate(url);
+    /* handleCloseNavMenu(); */
+  };
   return (
     <div className="cartHolder">
       <div className="cartMain">
@@ -17,6 +24,7 @@ const Cart = () => {
             return (
               <CartItem
                 key={oneItem.id}
+                id={oneItem.id}
                 img={oneItem.img}
                 name={oneItem.name}
                 description={oneItem.description}
@@ -43,7 +51,7 @@ const Cart = () => {
         <hr />
         <div className="cartItemsSubtotal">
           <div className="subtotalLine">
-            <h2>Subtotal</h2>
+            <h3>Subtotal</h3>
             <p>$5646,00</p>
           </div>
           <div className="subtotalLine">
@@ -65,7 +73,10 @@ const Cart = () => {
             customClass="continueShopping"
             buttonText="Continue shopping"
           />
-          <MyButton buttonText="Proceed to checkout" />
+          <MyButton
+            buttonText="Proceed to checkout"
+            onClick={() => handleNavigate('/checkout')}
+          />
         </div>
       </div>
     </div>
