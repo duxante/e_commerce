@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TextField } from '@mui/material';
+import { Box, TextField } from '@mui/material';
 import { cartData } from '../../data/cartData';
 import { useNavigate } from 'react-router-dom';
 import CartItem from './component/cartItem';
@@ -12,8 +12,8 @@ const Cart = () => {
 
   const handleNavigate = (url) => {
     navigate(url);
-    /* handleCloseNavMenu(); */
   };
+
   return (
     <div className="cartHolder">
       <div className="cartMain">
@@ -73,10 +73,9 @@ const Cart = () => {
             customClass="continueShopping"
             buttonText="Continue shopping"
           />
-          <MyButton
-            buttonText="Proceed to checkout"
-            onClick={() => handleNavigate('/checkout')}
-          />
+          <Box onClick={() => handleNavigate('/checkout')}>
+            <MyButton buttonText="Proceed to checkout" />
+          </Box>
         </div>
       </div>
     </div>

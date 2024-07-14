@@ -77,12 +77,13 @@ const Checkout = () => {
                   <div className="cityState">
                     <TextField
                       className="field"
-                      value={values.cityt}
+                      value={values.city}
                       onChange={handleChange}
                       onBlur={handleBlur}
                       label="City"
                       name="city"
                       placeholder="· City"
+                      fullWidth
                     />
                     <TextField
                       className="field"
@@ -92,6 +93,7 @@ const Checkout = () => {
                       label="State"
                       name="state"
                       placeholder="· State"
+                      fullWidth
                     />
                     <TextField
                       className="field"
@@ -101,6 +103,7 @@ const Checkout = () => {
                       label="Zip Code"
                       name="zip"
                       placeholder="· Zip Code"
+                      fullWidth
                     />
                   </div>
                   <div className="checkboxThing">
@@ -120,6 +123,7 @@ const Checkout = () => {
                     label="Email For Order Tracking"
                     name="emailForOrder"
                     placeholder="· Email For Order Tracking"
+                    fullWidth
                   />
                   <TextField
                     className="field"
@@ -129,6 +133,7 @@ const Checkout = () => {
                     label="Phone for Delivery Contact"
                     name="phone"
                     placeholder="· Phone for Delivery Contact"
+                    fullWidth
                   />
                 </div>
                 <div className="privacyTerms">
@@ -138,7 +143,9 @@ const Checkout = () => {
                     here. we'll only contact you if there's an issue with your
                     order.
                   </p>
-                  <p>
+                </div>
+                <div className="couponsAndNotifications">
+                  <p className="couponsText">
                     We'll also look for coupons associated with your email and
                     phone number
                   </p>
@@ -148,7 +155,9 @@ const Checkout = () => {
                   </div>
                 </div>
               </div>
-              <MyButton buttonText="Proceed to Savings and Payments" />
+              <div className="buttonSavingHolder">
+                <MyButton buttonText="Proceed to Savings and Payments" />
+              </div>
             </Form>
           )}
         </Formik>
