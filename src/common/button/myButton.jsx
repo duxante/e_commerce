@@ -1,8 +1,12 @@
 import './myButton.style.css';
 
-const MyButton = ({ buttonText, customClass, type }) => {
+const MyButton = ({ buttonText, customClass, type, redirect }) => {
   return (
-    <button className={`myButton ${customClass}`} type={type}>
+    <button
+      onClick={redirect}
+      className={`myButton ${customClass}`}
+      type={type}
+    >
       {buttonText}
     </button>
   );

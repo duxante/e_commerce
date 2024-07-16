@@ -69,13 +69,13 @@
     display: flex;
     max-width: 35px;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border: 2px solid #2B7A78;
     border-radius: 5px;
-    align-items: center;
-    flex-direction: column;
+    padding: 0px 10px;
 }
 
 .spanish{
     cursor: pointer;
+    padding: 0px 3px;
 }
