@@ -145,7 +145,7 @@ const Navigation = () => {
             ))}
           </Box>
           <Box className="navigationCart">
-            <CartIcon />
+            <CartIcon onClick={() => handleNavigate('/cart')} />
           </Box>
         </Toolbar>
       </Container>

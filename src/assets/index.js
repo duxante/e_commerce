@@ -25,6 +25,41 @@ import bowers from './bowers.png';
 import ourStory from './ourStory.png';
 import phoneIcon from './phoneIcon.png';
 import locationIcon from './locationIcon.png';
+import focalProListen from './focalProListen.png';
+import beatsStudioPro from './beatsStudioPro.png';
+import aKGK371Twist from './aKGK371Twist.png';
+import aTHM70x from './aTHM70x.png';
+import trashIcon from './trashIcon.png';
+
+const TrashIcon = () => {
+  return <img className="trashIcon" src={trashIcon} alt="trash icon" />;
+};
+
+const ATHM70x = () => {
+  return (
+    <img className="aTHM70x" src={aTHM70x} alt="audio technica headphones" />
+  );
+};
+
+const AKGK371Twist = () => {
+  return (
+    <img className="aKGK371Twist" src={aKGK371Twist} alt="AKG headphones" />
+  );
+};
+
+const BeatsStudioPro = () => {
+  return (
+    <img
+      className="beatsStudioPro"
+      src={beatsStudioPro}
+      alt="beats studio pro headphones"
+    />
+  );
+};
+
+const FocalProListen = () => {
+  return <img className="focal" src={focalProListen} alt="focal headphones" />;
+};
 
 const PhoneIcon = () => {
   return <img className="phoneIcon" src={phoneIcon} alt="phone Icon" />;
@@ -134,8 +169,15 @@ const MainLogo = () => {
   return <img className="mainLogo" src={logo} alt="logo" />;
 };
 
-const CartIcon = () => {
-  return <img className="cartIcon" src={cartIcon} alt="cart icon" />;
+const CartIcon = ({ onClick }) => {
+  return (
+    <img
+      onClick={onClick}
+      className="cartIcon"
+      src={cartIcon}
+      alt="cart icon"
+    />
+  );
 };
 
 const Headphones = () => {
@@ -208,4 +250,9 @@ export {
   OurStory,
   LocationIcon,
   PhoneIcon,
+  FocalProListen,
+  BeatsStudioPro,
+  AKGK371Twist,
+  ATHM70x,
+  TrashIcon,
 };

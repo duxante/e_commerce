@@ -1,10 +1,21 @@
-import { Form } from 'react-router-dom';
+import { Form, Formik } from 'formik';
 import { LocationIcon, PhoneIcon } from '../../assets';
 import MyButton from '../../common/button/myButton';
 import './contact.style.css';
 import { TextField, colors } from '@mui/material';
 
 const Contact = () => {
+  const initialValues = {
+    name: '',
+    email: '',
+    message: '',
+  };
+
+  const handleFormSubmit = (values, actions) => {
+    console.log(values, 'values');
+    actions.resetForm();
+  };
+
   return (
     <div className="contactHolder">
       <div className="contactMain">
@@ -36,87 +47,58 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contactRightside">
-          <h2>Get started with a free quotation</h2>
-          <div className="textFieldCrap">
-            <TextField
-              label="Name"
-              name="name"
-              placeholder="Your Name..."
-              fullWidth
-              sx={{
-                // Root class for the input field
-                '& .MuiOutlinedInput-root': {
-                  color: '#17252A',
-                  fontFamily: 'Arial',
-
-                  // Class for the border around the input field
-                  '& .MuiOutlinedInput-notchedOutline': {
-                    borderColor: '#3AAFA9',
-                  },
-                },
-                // Class for the label of the input field
-                '& .MuiInputLabel-outlined': {
-                  color: '#2B7A78',
-                },
-              }}
-            />
-            <TextField
-              label="Email"
-              name="email"
-              placeholder="Your Email..."
-              fullWidth
-              sx={{
-                // Root class for the input field
-                '& .MuiOutlinedInput-root': {
-                  color: '#17252A',
-                  fontFamily: 'Arial',
-
-                  // Class for the border around the input field
-                  '& .MuiOutlinedInput-notchedOutline': {
-                    borderColor: '#3AAFA9',
-                  },
-                },
-                // Class for the label of the input field
-                '& .MuiInputLabel-outlined': {
-                  color: '#2B7A78',
-                },
-              }}
-            />
-            <TextField
-              label="Message"
-              name="message"
-              placeholder="Write Message..."
-              multiline
-              rows={10}
-              fullWidth
-              sx={{
-                // Root class for the input field
-                '& .MuiOutlinedInput-root': {
-                  color: '#17252A',
-                  fontFamily: 'Arial',
-
-                  // Class for the border around the input field
-                  '& .MuiOutlinedInput-notchedOutline': {
-                    borderColor: '#3AAFA9',
-                  },
-                },
-                // Class for the label of the input field
-                '& .MuiInputLabel-outlined': {
-                  color: '#2B7A78',
-                },
-              }}
-            />
-          </div>
-          <div className="checkboxThing">
-            <input id="cb1" type="checkbox" name="checkbox" />
-            <p>I accept the Terms of Service</p>
-          </div>
-          <MyButton
-            customClass="contactButton"
-            buttonText="Submit Your Request"
-          />
-        </div>
+        <Formik initialValues={initialValues} onSubmit={handleFormSubmit}>
+          {({ values, handleBlur, handleChange, handleSubmit }) => (
+            <Form className="formRightside" onSubmit={handleSubmit}>
+              <div className="contactRightside">
+                <h2>Get started with a free quotation</h2>
+                <div className="textFieldCrap">
+                  <TextField
+                    className="field"
+                    value={values.name}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    label="Name"
+                    name="name"
+                    placeholder="Your Name..."
+                    fullWidth
+                  />
+                  <TextField
+                    className="field"
+                    value={values.email}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    label="Email"
+                    name="email"
+                    placeholder="Your Email..."
+                    fullWidth
+                  />
+                  <TextField
+                    className="field"
+                    value={values.message}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    label="Message"
+                    name="message"
+                    placeholder="Write Message..."
+                    multiline
+                    rows={10}
+                    fullWidth
+                  />
+                </div>
+                <div className="checkboxThing">
+                  <input id="cb1" type="checkbox" name="checkbox" />
+                  <p>I accept the Terms of Service</p>
+                </div>
+                <MyButton
+                  type="submit"
+                  customClass="contactButton"
+                  buttonText="Submit Your Request"
+                />
+              </div>
+            </Form>
+          )}
+        </Formik>
       </div>
     </div>
   );

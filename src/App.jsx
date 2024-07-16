@@ -10,6 +10,7 @@ import WhatClientsSay from './features/whatClientsSay/whatClientsSay';
 import EndingFresh from './features/endingFresh/endingFresh';
 import AboutUs from './features/aboutUs/aboutUs';
 import Contact from './features/contact/contact';
+import Cart from './features/cart/cart';
 import './App.css';
 
 const HomePages = () => {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<HomePages />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
     </div>
