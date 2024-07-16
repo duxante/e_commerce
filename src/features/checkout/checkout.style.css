@@ -1,0 +1,140 @@
+.checkoutHolder{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.checkoutMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.delivery{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.deliveryAddress{
+    background-color: #DEF2F1;
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.firstAndLastName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.deliveryAddress p{
+    text-decoration: underline;
+}
+
+.streetAddress{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.cityState{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.checkboxThing{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: #17252A;
+}
+
+.checkboxThing p{
+    text-decoration: none;
+}
+
+.contactInfo{
+    background-color: #DEF2F1;
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.emailAndPhone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.privacyTerms img{
+    max-width: 20px;
+    width: 100%;
+}
+
+.privacyTerms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.couponsAndNotifications{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.couponsText{
+    margin: 0px auto;
+    font-weight: 600;
+}
+
+.buttonSavingHolder{
+    align-self: flex-end;
+}
+
+#cb1 {
+    accent-color: #3AAFA9;
+}
+
+.field .MuiOutlinedInput-root {
+    color: #17252a;
+    font-family: Arial;
+  }
+  
+  .field .MuiOutlinedInput-notchedOutline {
+    border-color: #3aafa9;
+  }
+  
+  .field .MuiInputLabel-outlined {
+    color: #2b7a78;
+  }
