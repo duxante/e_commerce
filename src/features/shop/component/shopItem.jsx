@@ -1,4 +1,5 @@
 import MyButton from '../../../common/button/myButton';
+import HalfRating from '../../../common/rating/rating';
 import '../style/shopItem.style.css';
 
 const ShopItem = ({ img, title, price, description }) => {
@@ -9,7 +10,10 @@ const ShopItem = ({ img, title, price, description }) => {
         <h2>{title}</h2>
         <p>{price}</p>
       </div>
-      <p>{description}</p>
+      <div className="rating">
+        <HalfRating />
+        <p>{description}</p>
+      </div>
       <MyButton customClass="shopItemButton" buttonText="Add to Cart" />
     </div>
   );
