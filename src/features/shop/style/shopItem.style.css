@@ -1,0 +1,58 @@
+.oneshopItem{
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEFFFF;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.rating{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    color: #17252A;
+    padding: 5px 0px
+}
+
+.rating p{
+    margin-top: 0;
+}
+
+.oneshopItem h2{
+    margin: 0px;
+    color: #17252A;
+}
+
+.oneshopItem img{
+    max-width: 170px;
+    width: 100%;
+    background-color: #DEF2F1;
+    border-radius: 5px;
+}
+
+.shopItemButton{
+    padding: 6px 8px;
+    margin-top: 10px;
+}
+
+
+.titleAndPrice{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+.titleAndPrice p{
+    padding: 0px;
+    margin: 0px;
+    color: #17252A;
+    font-weight: 500;
+    font-size: large;
+}

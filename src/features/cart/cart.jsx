@@ -70,12 +70,15 @@ const Cart = () => {
         </div>
         <div className="cartItemButtons">
           <MyButton
+            redirect={() => handleNavigate('/shop')}
             customClass="continueShopping"
             buttonText="Continue shopping"
           />
-          <Box onClick={() => handleNavigate('/checkout')}>
-            <MyButton buttonText="Proceed to checkout" />
-          </Box>
+
+          <MyButton
+            redirect={() => handleNavigate('/checkout')}
+            buttonText="Proceed to checkout"
+          />
         </div>
       </div>
     </div>

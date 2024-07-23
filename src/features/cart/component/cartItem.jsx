@@ -20,9 +20,9 @@ const CartItem = ({
         </div>
       </div>
       <div className="cartItemIncreseDecrease">
-        <span className="spanish">{span3}</span>
-        <span>{span2}</span>
         <span className="spanish">{span1}</span>
+        <span>{span2}</span>
+        <span className="spanish">{span3}</span>
       </div>
       <div className="cartItemPrice">
         <p>{price}</p>

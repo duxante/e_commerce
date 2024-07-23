@@ -12,6 +12,7 @@ import AboutUs from './features/aboutUs/aboutUs';
 import Contact from './features/contact/contact';
 import Cart from './features/cart/cart';
 import Checkout from './features/checkout/checkout';
+import Shop from './features/shop/shop';
 import './App.css';
 
 const HomePages = () => {
@@ -40,6 +41,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/shop" element={<Shop />} />
         </Routes>
       </BrowserRouter>
     </div>
