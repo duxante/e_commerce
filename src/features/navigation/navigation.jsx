@@ -15,7 +15,7 @@ import './navigation.style.css';
 const pages = [
   { name: 'Home', url: '/' },
   { name: 'Shop', url: '/shop' },
-  { name: 'How To Order?', url: '/how-to-order' },
+  { name: 'How To Order?', url: '/howToOrder' },
   { name: 'About Us', url: '/about' },
   { name: 'Contact', url: '/contact' },
 ];
