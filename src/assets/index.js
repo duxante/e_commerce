@@ -31,6 +31,28 @@ import aKGK371Twist from './aKGK371Twist.png';
 import aTHM70x from './aTHM70x.png';
 import trashIcon from './trashIcon.png';
 import lockIcon from './lockIcon.png';
+import step1 from "./step1.png";
+import step2 from "./step2.png";
+import step3 from "./step3.png";
+
+
+const Step3 = () => {
+  return(
+    <img className='step3' src={step3} alt='cart image' />
+  );
+};
+
+const Step2 = () => {
+  return(
+    <img className='step2' src={step2} alt='headphones into cart' />
+  );
+};
+
+const Step1 = () => {
+  return(
+    <img className='step1' src={step1} alt='preview image of headphones from shop' />
+  );
+};
 
 const LockIcon = () => {
   return <img className="lockIcon" src={lockIcon} alt="lock icon" />;
@@ -228,6 +250,9 @@ const RazerHeadhhones = () => {
 };
 
 export {
+  Step3,
+  Step2,
+  Step1,
   CartIcon,
   MainLogo,
   Headphones,

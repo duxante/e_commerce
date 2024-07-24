@@ -6,9 +6,9 @@
 .shopMain{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     width: 100%;
     margin: 0px auto;
     gap: 15px;

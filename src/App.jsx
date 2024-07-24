@@ -13,6 +13,7 @@ import Contact from './features/contact/contact';
 import Cart from './features/cart/cart';
 import Checkout from './features/checkout/checkout';
 import Shop from './features/shop/shop';
+import HowToOrder from './features/howToOrder/howToOrder';
 import './App.css';
 
 const HomePages = () => {
@@ -42,6 +43,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path='/howToOrder' element={<HowToOrder />} />
         </Routes>
       </BrowserRouter>
     </div>

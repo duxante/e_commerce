@@ -29,7 +29,7 @@
 }
 
 .oneshopItem img{
-    max-width: 170px;
+    /* max-width: 170px; */
     width: 100%;
     background-color: #DEF2F1;
     border-radius: 5px;
