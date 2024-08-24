@@ -19,7 +19,7 @@
 
 .whatClientsSayMain h1{
     font-size: 50px;
-    margin-top: 0;
+    margin: 0px auto;
     color: #FEFFFF;
 }
 
@@ -30,4 +30,16 @@
     gap: 19px;
     max-width: 1200px;
     width: 100%;
+}
+
+@media screen and (max-width:1200px) {
+   .whatClientsSayMain{
+    width: 90%;
+   }
+   .testimonialMainHolder{
+    padding: 0;
+   }
+   .testimonialMainHolder p{
+    width: 90%;
+   }
 }

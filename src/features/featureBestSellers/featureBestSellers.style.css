@@ -46,3 +46,9 @@
     width: 100%;
     margin: 0px auto;
 }
+
+@media screen and (max-width:1200px) {
+    .featureBestSellersMain{
+        max-width: 90%;
+    }
+}

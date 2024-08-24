@@ -62,3 +62,11 @@
     max-width: 250px;
     width: 100%;
 }
+
+@media screen and (max-width:1200px) {
+    .showcaseAppsMain{
+        max-width: 90%;
+        margin-top: 15px;
+        gap: 5px;
+    }
+}

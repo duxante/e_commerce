@@ -42,3 +42,9 @@
     align-items: center;
     gap: 10px;
 }
+
+@media screen and (max-width:1200px) {
+    .beautifulPresentationsMain{
+        max-width: 90%;
+    }
+}

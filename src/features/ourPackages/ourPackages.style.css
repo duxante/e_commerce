@@ -33,4 +33,24 @@
     width: 100%;
 }
 
+@media screen and (max-width:1200px) {
+    .ourPackagesMain{
+        width: 90%;
+        padding: 2% 0;
+    }
+    .packageHolder img{
+        max-width: 250px;
+    }
+    .ourPackagesMain h1{
+        margin-bottom: 5px;
+    }
+    .ourPackagesMain h1{
+        font-size: 1.5em;
+    }
+    .packageHolder h2{
+        font-size: 35px;
+    }
+
+}
+
 
