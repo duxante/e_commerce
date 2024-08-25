@@ -34,6 +34,9 @@
 }
 
 @media screen and (max-width:1200px) {
+    .packagesTitle{
+        font-size: 40px!important;
+    }
     .ourPackagesMain{
         width: 90%;
         padding: 2% 0;
@@ -50,7 +53,22 @@
     .packageHolder h2{
         font-size: 35px;
     }
+}
 
+@media screen and (max-width:930px) {
+    .packageHolder p{
+        font-size: 14px;
+    }
+    .packageHolder h2{
+        font-size: 28px!important;
+        margin-top: 16px;
+    }
+    .myButton{
+        font-size: 16px;
+    }
+    .packageHolder img{
+        max-width: 200px;
+    }
 }
 
 

@@ -14,6 +14,7 @@
 }
 
 .beautifulPresentationsOneSegmentHolder h1{
+    font-size: 32px;
     margin-bottom: 0;
     color: #FEFFFF;
     text-align: center;
@@ -24,4 +25,13 @@
     text-align: center;
     max-width: 350px;
     width: 100%;
+}
+
+@media screen and (max-width:930px) {
+    .beautifulPresentationsOneSegmentHolder h1 {
+        font-size: 28px;
+    }
+    .beautifulPresentationsOneSegmentHolder p {
+        font-size: 14px;
+    }    
 }

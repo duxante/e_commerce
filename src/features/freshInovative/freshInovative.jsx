@@ -19,7 +19,7 @@ const FreshInovative = () => {
             <h1>Fresh. </h1>
             <h1>Beautiful. </h1>
             <h1>Inovative.</h1>
-            <hr />
+            <hr className="myHr" />
             <p>
               Explore our headphone collection online. Cutting-edge designs,
               superior sound quality, and unbeatable prices await. Discover your
