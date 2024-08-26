@@ -43,3 +43,18 @@
     width: 90%;
    }
 }
+
+@media screen and (max-width:1100px) {
+    .whatClientsSayMain{
+        gap: 15px;
+    }
+    .whatClientsSayMain h1{
+        font-size: 40px;
+    }
+    .testimonialMainHolder p{
+        font-size: 14px;
+    }
+    .testimonialMainHolder h2{
+        font-size: 20px;
+    }
+ }
