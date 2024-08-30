@@ -22,7 +22,7 @@ export const packagesData = [
     img: <JblHeadphones />,
     title: 'JBL Best Offer',
     description:
-      "Experience unbeatable sound with JBL's best offer headphones. Enjoy premium quality, deep bass, and ultimate comfort at an incredibly attractive price!",
+      "Experience unbeatable sound with JBL's best offer headphones. Enjoy quality, deep bass, and ultimate comfort at an incredibly attractive price!",
     price: '$39',
   },
 ];

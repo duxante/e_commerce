@@ -33,7 +33,7 @@
     width: 100%;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1250px) {
     .packagesTitle{
         font-size: 40px!important;
     }
@@ -42,7 +42,7 @@
         padding: 2% 0;
     }
     .packageHolder img{
-        max-width: 250px;
+        max-width: 200px;
     }
     .ourPackagesMain h1{
         margin-bottom: 5px;
