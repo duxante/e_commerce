@@ -12,12 +12,13 @@
     width: 100%;
     margin: 0px auto;
     height: 100%;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 
 .packagesTitle{
     font-size: 50px!important;
     color: #FEFFFF!important;
+    margin-bottom: 1%!important;
 }
 
 .ourPackagesMain h1{
@@ -35,40 +36,42 @@
 
 @media screen and (max-width:1250px) {
     .packagesTitle{
-        font-size: 40px!important;
+        font-size: 50px!important;
     }
     .ourPackagesMain{
         width: 90%;
         padding: 2% 0;
     }
-    .packageHolder img{
-        max-width: 200px;
-    }
     .ourPackagesMain h1{
-        margin-bottom: 5px;
+        font-size: 24px;
     }
-    .ourPackagesMain h1{
-        font-size: 1.5em;
-    }
-    .packageHolder h2{
-        font-size: 35px;
+    .packagesBottom{
+        justify-content: space-evenly;
+        gap: 0;
     }
 }
 
-@media screen and (max-width:930px) {
-    .packageHolder p{
-        font-size: 14px;
+@media screen and (max-width:1100px) {
+    .packagesTitle{
+      font-size: 45px!important;
     }
-    .packageHolder h2{
-        font-size: 28px!important;
-        margin-top: 16px;
-    }
-    .myButton{
-        font-size: 16px;
-    }
-    .packageHolder img{
-        max-width: 200px;
-    }
+  }
+
+@media screen and (max-width:950px) {
+    .packagesTitle{
+        font-size: 40px!important;
+      }
+      .packagesBottom{
+        flex-direction: column;
+        gap: 10px;
+      }
 }
+
+@media screen and (max-width:700px) {
+    .packagesTitle{
+        font-size: 30px!important;
+      }
+}
+
 
 
