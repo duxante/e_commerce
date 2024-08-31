@@ -33,13 +33,20 @@
 @media screen and (max-width:930px) {
     .onlyTitle h1{
         font-size: 40px;
+        margin-bottom: 0;
     }
     .inputAndButton{
         flex-direction: column;
         padding-bottom: 2%;
     }
-    .myButton{
-        margin: 0px auto;
+    .productInfoButton{
+        margin: 0px auto!important;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .onlyTitle h1{
+        font-size: 30px;
     }
 }
 

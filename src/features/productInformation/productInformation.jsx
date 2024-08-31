@@ -11,7 +11,10 @@ const ProductInformation = () => {
         </div>
         <div className="inputAndButton">
           <InputMethod />
-          <MyButton buttonText="Get Product Information" />
+          <MyButton
+            customClass={'productInfoButton'}
+            buttonText="Get Product Information"
+          />
         </div>
       </div>
     </div>
