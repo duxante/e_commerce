@@ -105,3 +105,40 @@ hr{
         font-size: 16px;
     }
 }
+
+@media screen and (max-width:400px) {
+    .endingFreshLeftSide h1{
+        font-size: 22px;
+    }
+    .endingFreshLeftSide p{
+        margin: 0 0 14px;
+        width: 90%;
+    }
+    .myButton{
+        padding: 2% 8%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .endingFreshMain{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .endingFreshButton{
+        margin: 0px auto!important;
+    }
+    .endingFreshLeftSide{
+        padding-left: 0;
+        align-items: center;
+    }
+    .endingFreshLeftSide h1{
+        text-align: center;
+    }
+    .endingFreshLeftSide p{
+        text-align: center;
+    }
+    .endingFreshHr{
+        width: 90%;
+    }
+}
+

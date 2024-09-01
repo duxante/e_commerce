@@ -42,9 +42,6 @@
         width: 90%;
         padding: 2% 0;
     }
-    .ourPackagesMain h1{
-        font-size: 24px;
-    }
     .packagesBottom{
         justify-content: space-evenly;
         gap: 0;
@@ -55,7 +52,7 @@
     .packagesTitle{
       font-size: 45px!important;
     }
-  }
+}
 
 @media screen and (max-width:950px) {
     .packagesTitle{
@@ -67,10 +64,17 @@
       }
 }
 
+
 @media screen and (max-width:700px) {
     .packagesTitle{
         font-size: 30px!important;
       }
+}
+
+@media screen and (max-width:400px) {
+    .packagesTitle{
+      font-size: 28px!important;
+    }
 }
 
 

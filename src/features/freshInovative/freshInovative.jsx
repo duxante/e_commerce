@@ -17,8 +17,8 @@ const FreshInovative = () => {
         <div className="upperFreshInovative">
           <div className="leftSideFreshInovative">
             <div className="freshBigTitle">
-              <h1>Beautiful. </h1>
-              <h1>Fresh. </h1>
+              <h1>Beautiful.</h1>
+              <h1>Fresh.</h1>
               <h1>Inovative.</h1>
             </div>
             <hr className="myHr" />

@@ -125,3 +125,19 @@
         margin: 0px auto!important;
     }
 }
+
+@media screen and (max-width:400px) {
+    .showcaseAppsLeft h1 {
+        font-size: 22px;
+    }
+    .showcaseAppsRight img {
+        width: 50%;
+    }
+    .showcaseAppsLeft p{
+        font-size: 14px;
+    }
+    .tryThisButton{
+        padding: 2% 0!important;
+        width: 50%!important;
+    }
+}

@@ -8,8 +8,8 @@ const EndingFresh = () => {
     <div className="endingFreshHolder">
       <div className="endingFreshMain">
         <div className="endingFreshLeftSide">
-          <h1>Fresh. Beautiful. Inovative.</h1>
-          <hr className="myHr" />
+          <h1>Beautiful. Fresh. Inovative.</h1>
+          <hr className="myHr endingFreshHr" />
           <p>
             Unlock extraordinary sound with our top-rated headphones! Visit our
             web shop now to experience unbeatable quality and service. Don’t

@@ -30,10 +30,16 @@
     height: 150px;
 }
 
-@media screen and (max-width:930px) {
+@media screen and (max-width:1100px) {
+    .onlyTitle h1{
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:950px) {
     .onlyTitle h1{
         font-size: 40px;
-        margin-bottom: 0;
     }
     .inputAndButton{
         flex-direction: column;
@@ -50,4 +56,9 @@
     }
 }
 
+@media screen and (max-width:400px) {
+    .onlyTitle h1{
+        font-size: 26px;
+    }
+}
 

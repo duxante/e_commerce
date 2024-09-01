@@ -60,6 +60,7 @@
 
 @media screen and (max-width:950px) {
     .beautifulPresentationsUpper h1{
+        font-size: 40px;
         margin: 0px auto;
     }
     .beautifulPresentationsUpper p{
@@ -69,7 +70,6 @@
 
 @media screen and (max-width:850px) {
     .beautifulPresentationsUpper h1{
-        font-size: 40px;
         text-align: center;
     }
     .beautifulPresentationsOneSegmentHolder h1{
@@ -84,7 +84,7 @@
     .beautifulPresentationsUpper p{
       font-size: 14px;
     }
-  }
+}
 
   @media screen and (max-width: 600px) {
     .beautifulPresentationsMain{
@@ -94,4 +94,10 @@
         max-width: 450px;
         flex-direction: column;
     }
-  }  
+} 
+  
+  @media screen and (max-width: 340px) {
+    .beautifulPresentationsUpper h1{
+        font-size: 22px;
+    }
+  }    
