@@ -12,12 +12,13 @@
     width: 100%;
     margin: 0px auto;
     height: 100%;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 
 .packagesTitle{
     font-size: 50px!important;
     color: #FEFFFF!important;
+    margin-bottom: 1%!important;
 }
 
 .ourPackagesMain h1{
@@ -32,5 +33,49 @@
     gap: 10px;
     width: 100%;
 }
+
+@media screen and (max-width:1250px) {
+    .packagesTitle{
+        font-size: 50px!important;
+    }
+    .ourPackagesMain{
+        width: 90%;
+        padding: 2% 0;
+    }
+    .packagesBottom{
+        justify-content: space-evenly;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .packagesTitle{
+      font-size: 45px!important;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .packagesTitle{
+        font-size: 40px!important;
+      }
+      .packagesBottom{
+        flex-direction: column;
+        gap: 10px;
+      }
+}
+
+
+@media screen and (max-width:700px) {
+    .packagesTitle{
+        font-size: 30px!important;
+      }
+}
+
+@media screen and (max-width:400px) {
+    .packagesTitle{
+      font-size: 28px!important;
+    }
+}
+
 
 

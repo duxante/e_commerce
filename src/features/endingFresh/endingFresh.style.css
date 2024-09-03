@@ -64,3 +64,81 @@ hr{
     align-self: center;
 }
 
+@media screen and (max-width:1200px) {
+    .endingFreshMain{
+        width: 90%;
+    }
+    .endingFreshLeftSide h1{
+        font-size: 60px;
+        max-width: 470px;
+        width: 100%;
+    }
+    .endingFreshLeftSide p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .endingFreshLeftSide h1{
+        font-size: 45px;
+    }
+    .endingFreshLeftSide p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .myHr{
+        margin: 0 0 24px 0;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .endingFreshLeftSide h1{
+        max-width: 300px;
+        font-size: 40px;
+    }
+    .endingFreshLeftSide p{
+        font-size: 14px;
+    }
+    .myButton{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .endingFreshLeftSide h1{
+        font-size: 22px;
+    }
+    .endingFreshLeftSide p{
+        margin: 0 0 14px;
+        width: 90%;
+    }
+    .myButton{
+        padding: 2% 8%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .endingFreshMain{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .endingFreshButton{
+        margin: 0px auto!important;
+    }
+    .endingFreshLeftSide{
+        padding-left: 0;
+        align-items: center;
+    }
+    .endingFreshLeftSide h1{
+        text-align: center;
+    }
+    .endingFreshLeftSide p{
+        text-align: center;
+    }
+    .endingFreshHr{
+        width: 90%;
+    }
+}
+

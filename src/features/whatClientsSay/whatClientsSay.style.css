@@ -19,7 +19,7 @@
 
 .whatClientsSayMain h1{
     font-size: 50px;
-    margin-top: 0;
+    margin: 0px auto;
     color: #FEFFFF;
 }
 
@@ -31,3 +31,113 @@
     max-width: 1200px;
     width: 100%;
 }
+
+@media screen and (max-width:1250px) {
+   .whatClientsSayMain{
+    width: 90%;
+    gap: 0;
+   }
+   .testimonialMainHolder{
+    padding: 0;
+   }
+   .testimonialMainHolder p{
+    width: 90%;
+   }
+}
+
+@media screen and (max-width:1100px) {
+    .whatClientsSayMain{
+        gap: 15px;
+    }
+    .whatClientsSayMain h1{
+        font-size: 45px;
+    }
+    .testimonialMainHolder p{
+        font-size: 16px;
+    }
+    .testimonialMainHolder h2{
+        font-size: 20px;
+    }
+ }
+
+ @media screen and (max-width:950px) {
+    .whatClientsSayMain h1{
+        font-size: 40px;
+    }
+    .testimonialMainHolder p{
+        margin: 0;
+    }
+    .testimonialMainHolder h2{
+        text-align: center;
+    }
+ }
+
+ @media screen and (max-width:950px) {
+    .whatClientsSayMain{
+        gap: 0;
+    }
+    .testimonialMainHolder p{
+        font-size: 14px;
+    }
+    .testimonialMainHolder h2{
+        font-size: 18px;
+    }
+    .whatClientsSayBottom{
+        gap: 5px;
+    }
+ }
+
+ @media screen and (max-width:700px) {
+    .whatClientsSayMain h1{
+        font-size: 30px;
+    }
+    .testimonialMainHolder img{
+        max-width: 200px;
+    }
+    .testimonialMainHolder p{
+        font-size: 14px;
+    }
+    .testimonialMainHolder h2{
+        font-size: 20px;
+    }
+    .whatClientsSayBottom{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        justify-items: center;
+    }
+ }
+
+ @media screen and (max-width:700px) {
+    .testimonialMainHolder img{
+        max-width: 150px;
+    }
+    .testimonialMainHolder h2{
+        font-size: 18px;
+    }
+ }
+
+ @media screen and (max-width:500px) {
+    .whatClientsSayMain h1{
+        text-align: center;
+    }
+    .whatClientsSayBottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonialMainHolder{
+        max-width: 500px;
+    }
+    .testimonialMainHolder img{
+        max-width: 180px;
+    }
+    .testimonialMainHolder p{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .whatClientsSayMain h1{
+        font-size: 22px;
+    }
+ }

@@ -10,6 +10,7 @@
     width: 100%;
     margin: 0px auto;
     height: 100%;
+    padding: 2% 0;
 }
 
 .showcaseAppsLeft{
@@ -61,4 +62,82 @@
 .tryThisButton{
     max-width: 250px;
     width: 100%;
+}
+
+@media screen and (max-width:1250px) {
+    .showcaseAppsMain{
+        max-width: 90%;
+        margin-top: 15px;
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .showcaseAppsLeft h1{
+        font-size: 45px;
+    }
+    .showcaseAppsLeft p{
+        max-width: 400px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .showcaseAppsLeft h1{
+        font-size: 40px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .showcaseAppsLeft h1{
+        font-size: 30px;
+    }
+    .tryThisButton{
+        font-size: 14px!important;
+        margin-top: 50px!important;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .showcaseAppsMain{
+        flex-direction: column-reverse;
+    }
+    .showcaseAppsRight{
+        width: 100%;
+    }
+    .showcaseAppsRight img {
+        width: 60%;
+    }
+    .showcaseAppsLeft{
+        width: 100%;
+    }
+    .showcaseLeft{
+        align-items: center;
+        text-align: center;
+    }
+    .showcaseAppsLeft p{
+        text-align: center;
+        margin-top: 0;
+    }
+    .tryThisButton{
+        margin-top: 10px!important;
+        margin: 0px auto!important;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .showcaseAppsLeft h1 {
+        font-size: 22px;
+    }
+    .showcaseAppsRight img {
+        width: 50%;
+    }
+    .showcaseAppsLeft p{
+        font-size: 14px;
+    }
+    .tryThisButton{
+        padding: 2% 0!important;
+        width: 50%!important;
+    }
 }

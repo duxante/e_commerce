@@ -16,10 +16,12 @@ const FreshInovative = () => {
       <div className="freshInovativeMain">
         <div className="upperFreshInovative">
           <div className="leftSideFreshInovative">
-            <h1>Fresh. </h1>
-            <h1>Beautiful. </h1>
-            <h1>Inovative.</h1>
-            <hr />
+            <div className="freshBigTitle">
+              <h1>Beautiful.</h1>
+              <h1>Fresh.</h1>
+              <h1>Inovative.</h1>
+            </div>
+            <hr className="myHr" />
             <p>
               Explore our headphone collection online. Cutting-edge designs,
               superior sound quality, and unbeatable prices await. Discover your

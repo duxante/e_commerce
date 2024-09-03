@@ -39,6 +39,65 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     gap: 10px;
 }
+
+@media screen and (max-width:1250px) {
+    .beautifulPresentationsMain{
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .beautifulPresentationsUpper h1{
+      font-size: 45px;
+    }
+    .beautifulPresentationsUpper p{
+      font-size: 16px;
+    }
+  }
+
+@media screen and (max-width:950px) {
+    .beautifulPresentationsUpper h1{
+        font-size: 40px;
+        margin: 0px auto;
+    }
+    .beautifulPresentationsUpper p{
+        margin-bottom: 0;
+      }
+}
+
+@media screen and (max-width:850px) {
+    .beautifulPresentationsUpper h1{
+        text-align: center;
+    }
+    .beautifulPresentationsOneSegmentHolder h1{
+        font-size: 20px;
+    } 
+}
+
+@media screen and (max-width: 700px) {
+    .beautifulPresentationsUpper h1{
+      font-size: 30px;
+    }
+    .beautifulPresentationsUpper p{
+      font-size: 14px;
+    }
+}
+
+  @media screen and (max-width: 600px) {
+    .beautifulPresentationsMain{
+        gap: 30px;
+    }
+    .beautifulPresentationsBottom{
+        max-width: 450px;
+        flex-direction: column;
+    }
+} 
+  
+  @media screen and (max-width: 340px) {
+    .beautifulPresentationsUpper h1{
+        font-size: 22px;
+    }
+  }    
