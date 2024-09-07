@@ -48,7 +48,7 @@ const Cart = () => {
           <MyButton customClass="buttonApply" buttonText="Apply" />
         </div>
         <p>20% off discount</p>
-        <hr />
+        <hr className="cartHr" />
         <div className="cartItemsSubtotal">
           <div className="subtotalLine">
             <h3>Subtotal</h3>
