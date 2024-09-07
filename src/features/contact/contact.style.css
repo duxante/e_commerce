@@ -95,6 +95,7 @@
 .contactRightside{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .contactRightside h2{
@@ -140,3 +141,119 @@
   .field .MuiInputLabel-outlined {
     color: #2b7a78;
   }
+
+  @media screen and (max-width:1250px) {
+   .contactMain{
+    width: 90%;
+    margin: 16px auto;
+   } 
+   .contactLeftSideText h1 {
+    font-size: 60px;
+  }
+  .formRightside{
+    width: 90%;
+    max-width: 550px;
+    margin: 0;
+    padding: 0% 2%;
+  }
+  .contactRightside h2{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:1180px) {
+    .contactLeftSideText h1 {
+     font-size: 48px;
+   }
+   .contactRightside h2{
+     font-size: 26px;
+   }
+ }
+
+ @media screen and (max-width:1040px) {
+    .contactLeftSideText h1 {
+     font-size: 44px;
+   }
+   .contactRightside h2{
+     font-size: 24px;
+   }
+ }
+
+ @media screen and (max-width:940px) {
+    .contactLeftSideText h1 {
+     font-size: 40px;
+   }
+   .contactRightside h2{
+     font-size: 20px;
+   }
+   .contactButton{
+    margin: 15px 0px 25px;
+   }
+}
+
+@media screen and (max-width:840px) {
+    .contactLocation img{
+        max-width: 40px;
+    }
+    .locationText h3{
+        font-size: 16px;
+    }
+    .locationText p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .contactLeftSideText h1 {
+        font-size: 34px;
+    }
+    .contactLeftSideText p{
+        font-size: 14px;
+    }
+    .contactLocation {
+        gap: 20px;
+    }    
+    .contactLocation img{
+        max-width: 30px;
+    }
+    .locationText h3{
+        font-size: 16px;
+    }
+    .contactRightside h2{
+        text-align: center;
+    }
+    .checkboxThing p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contactMain{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding-bottom: 20px;
+        margin: 0px auto;
+    }
+    .contactLeftSideText h1 {
+        margin-top: 0;
+    }
+    .contactRightside {
+        width: 100%;
+        padding-bottom: 4%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .contactLeftSideText h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }  
+    .contactRightside{
+        padding-bottom: 6%;
+        width: 90%;
+    } 
+    .contactLocationAndPhone{
+        margin: 0px auto!important;
+    }
+}
