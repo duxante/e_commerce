@@ -40,3 +40,51 @@
 .howToOrderStep p{
     margin-top: 0;
 }
+
+@media screen and (max-width:1250px) {
+    .howToOrderMain{
+        width: 90%;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .howToOrderMain{
+        padding: 6% 0;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .howToOrderStep h1 {
+        font-size: 28px;
+    }
+    .howToOrderStep p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .howToOrderStep img {
+        max-height: 380px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .howToOrderMain{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px auto;
+        width: 90%;
+        padding: 16px 0;
+    }
+    .howToOrderStep img {
+        max-height: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .howToOrderStep img {
+        max-height: 500px;
+    }
+}

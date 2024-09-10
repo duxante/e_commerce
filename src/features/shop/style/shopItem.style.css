@@ -29,7 +29,6 @@
 }
 
 .oneshopItem img{
-    /* max-width: 170px; */
     width: 100%;
     background-color: #DEF2F1;
     border-radius: 5px;
@@ -55,4 +54,45 @@
     color: #17252A;
     font-weight: 500;
     font-size: large;
+}
+
+@media screen and (max-width:1150px) {
+    .oneshopItem{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .oneshopItem{
+        max-width: 400px;
+    }
+    .titleAndPrice{
+        justify-content: space-between;
+    }
+    .titleAndPrice p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .oneshopItem{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .oneshopItem{
+        width: 90%;
+        max-width: 300px;
+    }
+    .titleAndPrice p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .oneshopItem{
+        max-width: 250px;
+    }
+
 }
